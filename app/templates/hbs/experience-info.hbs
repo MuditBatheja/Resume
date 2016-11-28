@@ -1,0 +1,21 @@
+<div>
+    {{debug}}
+    <h2>Experience</h2>
+    <ul>
+        {{#experience-info}}
+            <li>
+                <h4>
+                    <div align="left">{{name}}</div>
+                    <i align="right"></i>{{from}}-{{to}}
+                </h4>
+                <ul>
+                    {{#details}}
+                        <li>
+                            <i>{{detail}}</i>
+                        </li>
+                    {{/details}}
+                </ul>
+            </li>
+        {{/experience-info}}
+    </ul>
+</div>
