@@ -8,7 +8,7 @@
         "mobile": "+91-9509803460"
     },
     "profile-info": [{
-        "detail": "Have experience in IT industry as a software engineer for analysis, design and development of applications."
+        "detail": "Have +2 years of experience in IT industry as a software engineer for analysis, design and development of applications."
     }, {
         "detail": "Tech savvy, adaptive to new environment and take up on new challenges. Customer focused & solution driven."
     }],
@@ -33,22 +33,22 @@
         "name": "Smart Auction 3.0",
         "from": "July 16",
         "to": "Ongoing",
-        "detail": "Designed modules of Hybrid Mobile app with help of Ember JS, HTML, Handlebars, Bootstrap. And consume RESTfull web services in mobile app"
+        "detail": "This application is for online auctioning of vehicle. Designed single page User Interface for Mobile Application with Ember JS and Html5."
     }, {
         "name": "Delivery Vent",
         "from": "May 16",
         "to": "August 16",
-        "detail": "Designed application in Angular jS. Incoprate data <b>visulization</b> with help of Angular Chart"
+        "detail": "It is internal portal for reviewing projects. Designed the application and Visualize data with help of different type of charts in Angular JS"
     }, {
         "name": "Claims Assignment and Tracking System (CATS)",
         "from": "Oct 15",
         "to": "May 16",
-        "detail": ""
+        "detail": "Designed the whole application from scratch in Angular JS. Consume REST full web services for data and designed reusable directives for functionality"
     }, {
         "name": "Zero Code App",
         "from": "May 15",
         "to": "Oct 15",
-        "detail": ""
+        "detail": "Designed modules of Banking and finance domain in Angular JS. The main aim is to design the common modules of Banking and Finance."
     }],
     "experience-info": [{
         "name": "Cognizant Technology Solutions, Chennai",

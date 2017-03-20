@@ -3,13 +3,12 @@
     <h2>Project Detail</h2>
     <ul>
         {{#project-info}}
-            <li>
-                <h4>
-                    <span align="left">{{name}}</span>
-                    <i align="right"></i>{{from}}-{{to}}
+            <li class='projectInfo'>
+                <h4 class="subHeading">
+                    <div class='nameDetail'>{{name}}</div>
+                    <i class="durationDetail">{{from}}-{{to}}</i>
                 </h4>
-                <br>
-                <i>{{detail}}</i>
+                <i class='projectDetail'>{{detail}}</i>
             </li>
         {{/project-info}}
     </ul>

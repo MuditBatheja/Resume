@@ -157,6 +157,6 @@ gulp.task('webserver', function() {
     });
 });
 
-gulp.task('dev', ['minify-html', 'vendor-lib', 'vendor-css', 'bundle-scripts', 'bundle-css', 'JSONminify', 'copyfiles', 'copyIndex', 'sa-health']);
+gulp.task('dev', ['minify-html', 'vendor-lib', 'vendor-css', 'bundle-scripts', 'bundle-css', 'JSONminify', 'copyfiles', 'copyIndex']);
 
-gulp.task('prod', ['minify-html', 'vendor-lib', 'vendor-css', 'bundle-scripts-without-source', 'bundle-css', 'JSONminify', 'copyfiles', 'copyIndex', 'sa-health']);
+gulp.task('prod', ['minify-html', 'vendor-lib', 'vendor-css', 'bundle-scripts-without-source', 'bundle-css', 'JSONminify', 'copyfiles', 'copyIndex']);
