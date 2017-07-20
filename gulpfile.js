@@ -107,8 +107,14 @@ gulp.task('vendor-lib', function() {
 
 //vendor-lib
 gulp.task('vendor-css', function() {
-    return gulp.src(mainBowerFiles({
-            filter: new RegExp('.*css$', 'i')
+    return gulp.src(mainBowerFiles('**/*.css', {
+            overrides: {
+                bootstrap: {
+                    main: [
+                        './dist/css/bootstrap.min.css'
+                    ]
+                }
+            }
         }))
         .pipe(concat('vendor.css'))
         .pipe(minifyCSS())
